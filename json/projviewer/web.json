@@ -1,0 +1,53 @@
+{
+    "content":[
+        {
+            "title": "DaBoys Network",
+            "featureImgURL": "",
+            "date": "2023",
+            "description": "A chat room with encrypted traffic for messages to be sent across the school, as every chat room was banned. Why not make your own",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# ASP Core, Js, HTML, CSS, Google App Engine",
+            "languages":[
+                "C#",
+                "Js",
+                "HTML",
+                "CSS"
+            ],
+            "lines": 713
+        },
+        {
+            "title": "Hot or Not",
+            "featureImgURL": "",
+            "date": "2023",
+            "description": "An extremely unethical website similar to that of Face Mash. Included a leader board.",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# ASP Core, Js, HTML, CSS, Google App Engine",
+            "languages":[
+                "C#",
+                "Js",
+                "HTML",
+                "CSS"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Old Mawse Software Website",
+            "featureImgURL": "",
+            "date": "2022",
+            "description": "The older and rather simple iteration of this website!",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "HTML, CSS",
+            "languages":[
+                "HTML",
+                "CSS"
+            ],
+            "lines": 100
+        }
+    ]
+}

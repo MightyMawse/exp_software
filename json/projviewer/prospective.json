@@ -1,0 +1,65 @@
+{
+    "content":[
+        {
+            "title": "Seven Hours",
+            "featureImgURL": "",
+            "date": "~",
+            "description": "A Half-life mod that tells the story of the Seven Hour War of the half life universe, taken from the perspective of a soldier.",
+            "skill": "4",
+            "opensrc": true,
+            "download": "",
+            "engine": "Source",
+            "languages":[
+                "C++"
+            ],
+            "lines": 0
+        },
+        {
+            "title": "Fragments of Silence",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Fragments of Silence development started in 2024 and tells the story of a man and his games...",
+            "skill": "4",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 812
+        },
+        {
+            "title": "Aura Tracker",
+            "featureImgURL": "",
+            "date": "~",
+            "description": "Mobile application that allows for a party of friends to be joined with a group vote to change a members social aura.",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Objective C",
+            "languages":[
+                "Objective C"
+            ],
+            "lines": 0
+        },
+        {
+            "title": "Trading Torrent",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "An ambitious Trading forum with live exchange data and countless resources, while still in early conceptual levels of planning, ideas surrounding an embedded learning platform have been discussed.",
+            "skill": "5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python, Js, HTML, CSS, Google App Engine, jQuery, SQL",
+            "languages":[
+                "Python",
+                "Js",
+                "HTML",
+                "CSS",
+                "jQuery",
+                "SQL"
+            ],
+            "lines": 0
+        }
+    ]
+}

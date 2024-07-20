@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Exponential Software - Contact</title>
+        <link rel="stylesheet" href="../static/css/default.css">
+    </head>
+    <body onload="Init()">
+        <div class="header" style="height: 75px; width: 100%; z-index: 2;">
+            <div class="flex-around-horizontal" style="width: 30%; top: 15px">
+                <a href="/pages?page=home">
+                    <img src="../static/img/logo.png" class="logo" style="width: 150px; height: 45px;">
+                </a>
+                <a href="/pages?page=projects" class="header-button" style="margin-top: 15px; height: 10%; margin-right: 5px;"><b>Projects</b></a>
+                <a href="/pages?page=about" class="header-button" style="margin-top: 15px; height: 10%; margin-right: 5px;"><b>About</b></a>
+                <a href="/pages?page=contact" class="header-button" style="margin-top: 15px; height: 10%; margin-right: 5px;"><b>Contact</b></a>
+                <a href="/pages?page=statistic" class="header-button" style="margin-top: 15px; height: 10%; margin-right: 5px;"><b>Statistics</b></a>
+            </div>
+        </div>
+
+        <div class="page-body" style="height: 100%; box-shadow: inset 0 0 70px 10px rgb(26, 26, 26);">
+            <p style="position: absolute; color: white; font-family: Arial, Helvetica, sans-serif; margin-left: 20px; width: 1000px;">
+                <b>Feel Free to contact Exponential Software via email, social media or phone number, we would be happy to chat at anytime about any questions you may have or projects you wish to develop.</b>
+            </p>
+            <p style="position: absolute; color: white; font-family: Arial, Helvetica, sans-serif; margin-left: 20px; top: 70px">
+                <b>Email:</b>
+                <b style="color: orange">llamagllama58@gmail.com</b>
+            </p>
+            <p style="position: absolute; color: white; font-family: Arial, Helvetica, sans-serif; margin-left: 20px; top: 90px">
+                <b>Social:</b>
+                <a href="https://www.instagram.com/mawsesoftware/" style="text-decoration: none;"><b style="color: orange;">https://www.instagram.com/mawsesoftware/</b></a>
+            </p>
+            <p style="position: absolute; color: white; font-family: Arial, Helvetica, sans-serif; margin-left: 20px; top: 110px">
+                <b>Mobile:</b>
+                <b style="color: orange;">0490807117</b>
+            </p>
+        </div>
+        
+        <div id="footer" class="footer" style="height: 40px; background-color: rgb(43, 43, 43);">Exponential Software 2018 - </div>
+        <script>
+            function Init(){
+                document.getElementById("footer").innerText += new Date().getFullYear();
+            }
+        </script>
+    </body>
+</html>

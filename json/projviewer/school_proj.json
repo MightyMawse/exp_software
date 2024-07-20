@@ -1,0 +1,176 @@
+{
+    "content":[
+        {
+            "title": "Fast Food Console",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "A Software Development and Design major project for the Prelim, a fast food ordering system, sports a customisable menu and complete documentation. Scored 100%",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# .NET Framework",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Medical Program",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "A medical administration system to be use in a hospital setting, complete with full documentation. Scored 100%",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# .NET Framework",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Krunchy Krab",
+            "featureImgURL": "",
+            "date": "2022",
+            "description": "Yet another ordering system complete with documentation, Scored 100%",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# .NET Framework",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Fact Checker",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "QUT Semester 1 fact checker, allows the user to see recent headlines from various sources and rank their reliability, ranks are stored in a sqlite database.",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python, TKinter, SQL",
+            "languages":[
+                "Python",
+                "SQL"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "BlackFlum Casino",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "QUT Semester 1 project, an unfinished multiplayer virtual casino, only singleplayer black jack experience. Scored 96%",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python, Flask, Js, HTML, CSS",
+            "languages":[
+                "Python",
+                "Js",
+                "HTML",
+                "CSS"
+            ],
+            "lines": 1223
+        },
+        {
+            "title": "Curve",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "A cool curve that I made at some point in semester 1 of Computer Science.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python Turtle",
+            "languages":[
+                "Python"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Price of BitCoin",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "QUT Semester 1 project, takes a range of random values and maps them to a plane with indicative colouring and image manipulation.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python Turtle",
+            "languages":[
+                "Python"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "CoG++",
+            "featureImgURL": "",
+            "date": "2020",
+            "description": "Calculates the center of gravity of a bottle rocket, made for Year 9 ISTEM class.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 98
+        },
+        {
+            "title": "Unscramble",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "Made to cheat at Yr10 English class work",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "C#",
+            "languages":[
+                "C#"
+            ],
+            "lines": 179
+        },
+        {
+            "title": "MPasswordCrack",
+            "featureImgURL": "",
+            "date": "2019",
+            "description": "First attempt at making a software to crack the five digit combo school passwords.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "VBS",
+            "languages":[
+                "VBS"
+            ],
+            "lines": 65
+        },
+        {
+            "title": "Crack",
+            "featureImgURL": "",
+            "date": "2022",
+            "description": "Second attempt at making a software to crack school passwords",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python, Selenium",
+            "languages":[
+                "Python"
+            ],
+            "lines": 49
+        },
+        {
+            "title": "Sport",
+            "featureImgURL": "",
+            "date": "2022",
+            "description": "Created to manipulate school timetable so that I could dodge a detention for wearing the wrong uniform.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "Python",
+            "languages":[
+                "Python"
+            ],
+            "lines": 100
+        }
+    ]
+}

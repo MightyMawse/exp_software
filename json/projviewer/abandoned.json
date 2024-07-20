@@ -1,0 +1,166 @@
+{
+    "content":[
+        {
+            "title": "Oracle",
+            "featureImgURL": "",
+            "date": "2021-2022",
+            "description": "A Skyrim/Oblivion style game that saw a partially written story line and a solid code base, like many projects in this section, it was too ambitious for its own good.",
+            "skill": "4",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Atomic Rain",
+            "featureImgURL": "",
+            "date": "2021-2023",
+            "description": "A Fallout/Stalker style game set in post apocalyptia, underwent many identity changes and overhauls throughout it's life, again, too ambitious.",
+            "skill": "4",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Quake Style Multiplayer",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "A joint project with a friend using Mirror for unity, friend abandoned the project and so development ceased. Acheived multiplayer and a sick looking map!",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 263
+        },
+        {
+            "title": "Chrome Mercenary",
+            "featureImgURL": "",
+            "date": "2020",
+            "description": "An intentionally generic first person shooter game that was so boring to make that development ceased, it sported half baked combat mechanics and a half made map.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Cataclysmic",
+            "featureImgURL": "",
+            "date": "2019-2023",
+            "description": "Likely the titanic of Exponential Software, has likely the longest development of any project and under went countless overhauls and recreations, a moment of silence please! Sci-fi shooter game.",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Celestial Rift",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "A Halo CE/2 inspired title with a surprisingly well made map and game mechanics, hard to make fun, may revisit this title.",
+            "skill": "4.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Seen",
+            "featureImgURL": "",
+            "date": "2019-2021",
+            "description": "Another big name that never came to fruition, underwent years of development but served as more of an experiment than production game.",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "StuddyBuddy.ai",
+            "featureImgURL": "",
+            "date": "2023",
+            "description": "A highly ambitious web app that I was creating for myself hastily just prior to HSC exams, it was a platform that allowed one-on-one tutoring with an AI tutor, a fine tuned GPT model from OPENAI API would server as your tutor.",
+            "skill": "4.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# ASP Core, Js, HTML, CSS, jQuery, OpenAI API, Google App Engine",
+            "languages":[
+                "C#",
+                "Js",
+                "HTML",
+                "CSS",
+                "jQuery"
+            ],
+            "lines": 1474
+        },
+        {
+            "title": "Wealth Sphere",
+            "featureImgURL": "",
+            "date": "2022",
+            "description": "An ambitious trading forum, sort of a joint project with a friend but realistically was all me, as I have no passion or understanding of trading, it quickly fell off.",
+            "skill": "4",
+            "opensrc": true,
+            "download": "",
+            "engine": "C# ASP Core, Js, HTML, CSS, jQuery",
+            "languages":[
+                "C#",
+                "Js",
+                "HTML",
+                "CSS",
+                "jQuery"
+            ],
+            "lines": 485
+        },
+        {
+            "title": "Impulse",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "A fast paced ricochet influenced game, saw the player doing stunts, parkour and trick shots.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Source",
+            "languages":[
+                "C++"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Wellspring",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "A Source engine game inspired by Silent Hill, the player wakes up after crashing their car in a snowy region.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "Source",
+            "languages":[
+                "C++"
+            ],
+            "lines": 100
+        }
+    ]
+}

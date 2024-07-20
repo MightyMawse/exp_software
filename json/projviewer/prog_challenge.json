@@ -1,0 +1,102 @@
+{
+    "content":[
+        {
+            "title": "Nico Cipher",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Encode a message in through a Nico cipher encoding.",
+            "skill": "4",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/63ef4k1uerqdzzb/nico_cipher.cpp/file",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 155
+        },
+        {
+            "title": "Space Message",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Decode a space message format string into a message.",
+            "skill": "3",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/b6k1vsf8puf636a/space_message.cpp/file",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 56
+        },
+        {
+            "title": "Burrows-Wheeler Transform",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Write a burrows-wheeler transform algorithm",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/i4qddfro0fy4hzn/bwtransform.cpp/file",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 79
+        },
+        {
+            "title": "JigSaw",
+            "featureImgURL": "",
+            "date": "2021",
+            "description": "An image is cut up into squares and you must rearrange it into its original arrangement.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/folder/m5whtonqsz7iz/jigsaw",
+            "engine": "C# .NET Framework",
+            "languages":[
+                "C#"
+            ],
+            "lines": 216
+        },
+        {
+            "title": "Snake",
+            "featureImgURL": "",
+            "date": "2020",
+            "description": "Snake game, dunno if it has the same rules as traditional snake tho, an updated version was made but has likely been lost.",
+            "skill": "3",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/folder/mgs6hn7ztwe09/Snake",
+            "engine": "C# .NET Framework",
+            "languages":[
+                "C#"
+            ],
+            "lines": 203
+        },
+        {
+            "title": "Caeser Cipher",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "A Caeser Cipher, shift each character of a message 'n' amount of times.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/6uq2bnfmvvu2r9k/caeser_cipher.cpp/file",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 33
+        },
+        {
+            "title": "ISBN-13",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Check if valid ISBN-13 or if in format of ISBN-10, return in ISBN-13 format.",
+            "skill": "3",
+            "opensrc": true,
+            "download": "",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 61
+        }
+    ]
+}

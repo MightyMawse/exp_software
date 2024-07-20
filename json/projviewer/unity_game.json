@@ -1,0 +1,102 @@
+{
+    "content": [
+        {
+            "title": "Alterline",
+            "featureImgURL": "",
+            "date": "2018",
+            "description": "This was the second game ever released by Exponential Software (MightyMawse Games) and aimed to replicate the immersive story telling found in games such as The Stanley Parable & The Beginners Guide by developer Davey Wreden.",
+            "skill": "1.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "BluPoint",
+            "featureImgURL": "",
+            "date": "2019",
+            "description": "BluPoint intended to deliver what Alterlite had ambitiously attempted but with a more polished outcome.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Fallen Too Far",
+            "featureImgURL": "",
+            "date": "2019",
+            "description": "Fallen Too Far (FTF) is a side scrolling 2.5D platformer that is comparable to games such as Limbo & Inside.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Galaxy Run",
+            "featureImgURL": "",
+            "date": "2018",
+            "description": "Galaxy Run was the first ever 3D game constructed by Exponential (MightyMawse Games) it plays as a fast paced block dodging game and was a tutorial game.",
+            "skill": "1",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Galaxy Run v1.3",
+            "featureImgURL": "",
+            "date": "2019",
+            "description": "Galaxy Run v1.3 was created in response to user requests, it allowed for customisable graphics settings, broader control scheme and two additional levels.",
+            "skill": "1.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Quest For Burt",
+            "featureImgURL": "",
+            "date": "2019",
+            "description": "Quest For Burt was the first foray into a first person shooter style project, while clunky and often times impossible to complete due to game design, its character shines through!",
+            "skill": "1",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        },
+        {
+            "title": "Trench Run",
+            "featureImgURL": "",
+            "date": "2020",
+            "description": "Trench Run is another fast paced speed run game that has the player flying through an endless trench dodging rock formations.",
+            "skill": "2.5",
+            "opensrc": true,
+            "download": "",
+            "engine": "Unity",
+            "languages":[
+                "C#"
+            ],
+            "lines": 100
+        }
+    ]
+}
