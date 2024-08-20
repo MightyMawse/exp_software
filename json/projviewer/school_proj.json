@@ -7,12 +7,13 @@
             "description": "A Software Development and Design major project for the Prelim, a fast food ordering system, sports a customisable menu and complete documentation. Scored 100%",
             "skill": "3",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/00cv7nurxvbngo4/Fast_Food_Console.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/8ismaw1hcirtwlq/FastFoodConsole.zip/file",
             "engine": "C# .NET Framework",
             "languages":[
                 "C#"
             ],
-            "lines": 100
+            "lines": 772
         },
         {
             "title": "Medical Program",
@@ -21,12 +22,13 @@
             "description": "A medical administration system to be use in a hospital setting, complete with full documentation. Scored 100%",
             "skill": "3",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/yhmwte9un4ofozi/SDD_MajorMedical.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/yhmwte9un4ofozi/SDD_MajorMedical.zip/file",
             "engine": "C# .NET Framework",
             "languages":[
                 "C#"
             ],
-            "lines": 100
+            "lines": 1032
         },
         {
             "title": "Krunchy Krab",
@@ -35,12 +37,13 @@
             "description": "Yet another ordering system complete with documentation, Scored 100%",
             "skill": "3",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/m3hhhbxx2m6odb6/sdd.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/m3hhhbxx2m6odb6/sdd.zip/file",
             "engine": "C# .NET Framework",
             "languages":[
                 "C#"
             ],
-            "lines": 100
+            "lines": 1000
         },
         {
             "title": "Fact Checker",
@@ -49,13 +52,14 @@
             "description": "QUT Semester 1 fact checker, allows the user to see recent headlines from various sources and rank their reliability, ranks are stored in a sqlite database.",
             "skill": "3.5",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/aoyh8kszzlbi3qw/assessment_2b_n12024945_Mason_McInerney.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/aoyh8kszzlbi3qw/assessment_2b_n12024945_Mason_McInerney.zip/file",
             "engine": "Python, TKinter, SQL",
             "languages":[
                 "Python",
                 "SQL"
             ],
-            "lines": 100
+            "lines": 583
         },
         {
             "title": "BlackFlum Casino",
@@ -64,7 +68,8 @@
             "description": "QUT Semester 1 project, an unfinished multiplayer virtual casino, only singleplayer black jack experience. Scored 96%",
             "skill": "3.5",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/tg0aio0xz36p1bs/blackflum_lite.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/tg0aio0xz36p1bs/blackflum_lite.zip/file",
             "engine": "Python, Flask, Js, HTML, CSS",
             "languages":[
                 "Python",
@@ -81,12 +86,13 @@
             "description": "A cool curve that I made at some point in semester 1 of Computer Science.",
             "skill": "2.5",
             "opensrc": true,
-            "download": "",
-            "engine": "Python Turtle",
+            "download": "https://www.mediafire.com/file/vxji0j8b6k09n9m/curve.html/file",
+            "srcdownload": "https://www.mediafire.com/file/vxji0j8b6k09n9m/curve.html/file",
+            "engine": "Js",
             "languages":[
-                "Python"
+                "Js"
             ],
-            "lines": 100
+            "lines": 28
         },
         {
             "title": "Price of BitCoin",
@@ -95,12 +101,13 @@
             "description": "QUT Semester 1 project, takes a range of random values and maps them to a plane with indicative colouring and image manipulation.",
             "skill": "2",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/vmfqglax2aatovc/assessment_1.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/vmfqglax2aatovc/assessment_1.zip/file",
             "engine": "Python Turtle",
             "languages":[
                 "Python"
             ],
-            "lines": 100
+            "lines": 371
         },
         {
             "title": "CoG++",
@@ -109,7 +116,8 @@
             "description": "Calculates the center of gravity of a bottle rocket, made for Year 9 ISTEM class.",
             "skill": "2",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/folder/utscp0oobab8s/CoG++",
+            "srcdownload": "https://www.mediafire.com/folder/utscp0oobab8s/CoG++",
             "engine": "C++",
             "languages":[
                 "C++"
@@ -123,7 +131,8 @@
             "description": "Made to cheat at Yr10 English class work",
             "skill": "2",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/folder/tgw01bkpkykn1/Unscramble",
+            "srcdownload": "https://www.mediafire.com/folder/tgw01bkpkykn1/Unscramble",
             "engine": "C#",
             "languages":[
                 "C#"
@@ -137,7 +146,8 @@
             "description": "First attempt at making a software to crack the five digit combo school passwords.",
             "skill": "2",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/grloo741i9npd5u/crack.vbs/file",
+            "srcdownload": "https://www.mediafire.com/file/grloo741i9npd5u/crack.vbs/file",
             "engine": "VBS",
             "languages":[
                 "VBS"
@@ -151,7 +161,8 @@
             "description": "Second attempt at making a software to crack school passwords",
             "skill": "3",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/ng64t68vdys87o7/crack.py/file",
+            "srcdownload": "https://www.mediafire.com/file/ng64t68vdys87o7/crack.py/file",
             "engine": "Python, Selenium",
             "languages":[
                 "Python"
@@ -165,12 +176,28 @@
             "description": "Created to manipulate school timetable so that I could dodge a detention for wearing the wrong uniform.",
             "skill": "2",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/gknl2vg5mgduace/sport.py/file",
+            "srcdownload": "https://www.mediafire.com/file/gknl2vg5mgduace/sport.py/file",
             "engine": "Python",
             "languages":[
                 "Python"
             ],
-            "lines": 100
+            "lines": 25
+        },
+        {
+            "title": "MWorks",
+            "featureImgURL": "",
+            "date": "2019",
+            "description": "An auto run client that starts all programs and resources that I would load up at the start of each school day.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/p0v5ig1ngh0183d/M_WORKS_%25282%2529.zip/file",
+            "srcdownload": "https://www.mediafire.com/file/p0v5ig1ngh0183d/M_WORKS_%25282%2529.zip/file",
+            "engine": "C#",
+            "languages":[
+                "C#"
+            ],
+            "lines": 108
         }
     ]
 }

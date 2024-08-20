@@ -10,7 +10,20 @@ colors.set("SQL", "#005fa3");
 colors.set("Batch", "#919191");
 colors.set("Scratch", "#ffd500");
 colors.set("Python", "#8c00ff");
-colors.set("Objective C", "#000000")
+colors.set("Objective C", "#000000");
+
+var languageElements = [];
+
+async function Show(){
+    // Cool effect
+    $("#no_projects").animate({"opacity": 1}, 500);
+    $("#no_lines").animate({"opacity": 1}, 700);
+    $("#consistency").animate({"opacity": 1}, 1000);
+    for(let i = 0; i < languageElements.length; i++){
+        var time = 500 + (i * 200);
+        $(languageElements[i]).animate({"opacity": 1}, time);
+    }
+}
 
 
 async function LanguagePercentage(){
@@ -58,12 +71,15 @@ async function LanguagePercentage(){
         newLegend.className = "legend";
 
         var legendHTML = await GetRaw("/pages?page=legend-template");
+        var percentage = (Math.round(sortedMap.get(key) * 100) / 100).toString() + "%";
         newLegend.innerHTML = legendHTML;
         newLegend.style.backgroundColor = colors.get(key);
-        newLegend.querySelector("#legend_text").innerText = key;
-        newLegend.title = (Math.round(sortedMap.get(key) * 100) / 100).toString() + "%";
+        newLegend.querySelector("#legend_text").innerText = key + "\n" + percentage.toString();
+        newLegend.title = percentage;
+        newLegend.style.opacity = 0;
 
         legendContainer.appendChild(newLegend);
+        languageElements.push(newLegend);
     }
 
     var background = "linear-gradient(to right" + gradientString + ")";
@@ -74,4 +90,6 @@ async function LanguagePercentage(){
 
     document.getElementById("no_projects").innerText += " " + projectCount.project_count;
     document.getElementById("no_lines").innerText += " " + projectCount.line_count;
+
+    Show();
 }

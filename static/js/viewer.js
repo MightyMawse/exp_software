@@ -1,5 +1,4 @@
 
-
 async function LoadViewerContent(){
     // Get project file name
     var projectFile = sessionStorage.getItem("project_file");
@@ -26,6 +25,27 @@ async function LoadViewerContent(){
 
         var openSrc = jsonElement.opensrc ? "Yes" : "No";
         newElement.querySelector("#open_src").innerText = "Open Source: " + openSrc;
+
+        // Add download links
+        var downloadLinkPresent = jsonElement.download == "" ? false : true;
+        var srcDownloadLinkPresent = jsonElement.srcdownload == "" ? false : true;
+
+        if(downloadLinkPresent){
+            newElement.querySelector("#download").setAttribute("href", jsonElement.download);
+        }
+        else{
+            newElement.querySelector("#download").style.color = "gray";
+            newElement.querySelector("#download").style.cursor = "default";
+        }
+
+        // Add src download links
+        if(srcDownloadLinkPresent){
+            newElement.querySelector("#download_src").setAttribute("href", jsonElement.srcdownload);
+        }
+        else{
+            newElement.querySelector("#download_src").style.color = "gray";
+            newElement.querySelector("#download_src").style.cursor = "default";
+        }
 
         var to = Math.round(jsonElement.skill);
         var ratingParent = newElement.querySelector("#rating");

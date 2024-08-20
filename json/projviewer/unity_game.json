@@ -6,8 +6,9 @@
             "date": "2018",
             "description": "This was the second game ever released by Exponential Software (MightyMawse Games) and aimed to replicate the immersive story telling found in games such as The Stanley Parable & The Beginners Guide by developer Davey Wreden.",
             "skill": "1.5",
-            "opensrc": true,
-            "download": "",
+            "opensrc": false,
+            "download": "https://www.mediafire.com/file/56738bs1le460wm/Alterline_setup.exe/file",
+            "srcdownload": "",
             "engine": "Unity",
             "languages":[
                 "C#"
@@ -20,13 +21,14 @@
             "date": "2019",
             "description": "BluPoint intended to deliver what Alterlite had ambitiously attempted but with a more polished outcome.",
             "skill": "2",
-            "opensrc": true,
-            "download": "",
+            "opensrc": false,
+            "download": "https://www.mediafire.com/file/whr6sc6ban9apvc/BluPoint_setup.exe/file",
+            "srcdownload": "",
             "engine": "Unity",
             "languages":[
                 "C#"
             ],
-            "lines": 100
+            "lines": 600
         },
         {
             "title": "Fallen Too Far",
@@ -34,27 +36,14 @@
             "date": "2019",
             "description": "Fallen Too Far (FTF) is a side scrolling 2.5D platformer that is comparable to games such as Limbo & Inside.",
             "skill": "2.5",
-            "opensrc": true,
-            "download": "",
+            "opensrc": false,
+            "download": "https://www.mediafire.com/file/66b0vgm86ckclw3/FTF9_setup.exe/file",
+            "srcdownload": "",
             "engine": "Unity",
             "languages":[
                 "C#"
             ],
-            "lines": 100
-        },
-        {
-            "title": "Galaxy Run",
-            "featureImgURL": "",
-            "date": "2018",
-            "description": "Galaxy Run was the first ever 3D game constructed by Exponential (MightyMawse Games) it plays as a fast paced block dodging game and was a tutorial game.",
-            "skill": "1",
-            "opensrc": true,
-            "download": "",
-            "engine": "Unity",
-            "languages":[
-                "C#"
-            ],
-            "lines": 100
+            "lines": 400
         },
         {
             "title": "Galaxy Run v1.3",
@@ -63,7 +52,8 @@
             "description": "Galaxy Run v1.3 was created in response to user requests, it allowed for customisable graphics settings, broader control scheme and two additional levels.",
             "skill": "1.5",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/19w23i35yv4aoh5/GalaxyRun1.3_setup.exe/file",
+            "srcdownload": "",
             "engine": "Unity",
             "languages":[
                 "C#"
@@ -76,8 +66,9 @@
             "date": "2019",
             "description": "Quest For Burt was the first foray into a first person shooter style project, while clunky and often times impossible to complete due to game design, its character shines through!",
             "skill": "1",
-            "opensrc": true,
-            "download": "",
+            "opensrc": false,
+            "download": "https://www.mediafire.com/file/xlmd6le3h6ub6i8/QBF_setup.exe/file",
+            "srcdownload": "",
             "engine": "Unity",
             "languages":[
                 "C#"
@@ -91,12 +82,13 @@
             "description": "Trench Run is another fast paced speed run game that has the player flying through an endless trench dodging rock formations.",
             "skill": "2.5",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/gufc3csnac6mc5x/TR_setup.exe/files",
+            "srcdownload": "https://www.mediafire.com/file/qxct6mjw0w8ivb4/Trench_Run.zip/file",
             "engine": "Unity",
             "languages":[
                 "C#"
             ],
-            "lines": 100
+            "lines": 209
         }
     ]
 }

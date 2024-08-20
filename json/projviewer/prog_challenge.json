@@ -8,6 +8,7 @@
             "skill": "4",
             "opensrc": true,
             "download": "https://www.mediafire.com/file/63ef4k1uerqdzzb/nico_cipher.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/63ef4k1uerqdzzb/nico_cipher.cpp/file",
             "engine": "C++",
             "languages":[
                 "C++"
@@ -22,6 +23,7 @@
             "skill": "3",
             "opensrc": true,
             "download": "https://www.mediafire.com/file/b6k1vsf8puf636a/space_message.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/b6k1vsf8puf636a/space_message.cpp/file",
             "engine": "C++",
             "languages":[
                 "C++"
@@ -36,6 +38,7 @@
             "skill": "3.5",
             "opensrc": true,
             "download": "https://www.mediafire.com/file/i4qddfro0fy4hzn/bwtransform.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/i4qddfro0fy4hzn/bwtransform.cpp/file",
             "engine": "C++",
             "languages":[
                 "C++"
@@ -50,6 +53,7 @@
             "skill": "2.5",
             "opensrc": true,
             "download": "https://www.mediafire.com/folder/m5whtonqsz7iz/jigsaw",
+            "srcdownload": "https://www.mediafire.com/folder/m5whtonqsz7iz/jigsaw",
             "engine": "C# .NET Framework",
             "languages":[
                 "C#"
@@ -64,6 +68,7 @@
             "skill": "3",
             "opensrc": true,
             "download": "https://www.mediafire.com/folder/mgs6hn7ztwe09/Snake",
+            "srcdownload": "https://www.mediafire.com/folder/mgs6hn7ztwe09/Snake",
             "engine": "C# .NET Framework",
             "languages":[
                 "C#"
@@ -78,6 +83,7 @@
             "skill": "2.5",
             "opensrc": true,
             "download": "https://www.mediafire.com/file/6uq2bnfmvvu2r9k/caeser_cipher.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/6uq2bnfmvvu2r9k/caeser_cipher.cpp/file",
             "engine": "C++",
             "languages":[
                 "C++"
@@ -91,7 +97,8 @@
             "description": "Check if valid ISBN-13 or if in format of ISBN-10, return in ISBN-13 format.",
             "skill": "3",
             "opensrc": true,
-            "download": "",
+            "download": "https://www.mediafire.com/file/z0xby6ii9gt9e0g/isbn.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/z0xby6ii9gt9e0g/isbn.cpp/file",
             "engine": "C++",
             "languages":[
                 "C++"
