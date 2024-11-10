@@ -7,6 +7,8 @@ async function LoadViewerContent(){
     var jsonToLoad = await ServerRequest("GET", null, "/json?" + new URLSearchParams({
         name: projectFile
     }));
+	
+	var htmlSrc = await GetRaw("/pages?page=viewer-element");
 
     // Display on screen
     for(let i = 0; i < jsonToLoad.content.length; i++){
@@ -14,8 +16,6 @@ async function LoadViewerContent(){
         var parent = document.getElementsByClassName("page-body")[0];
 
         var newElement = document.createElement("div"); // Create new project element
-
-        var htmlSrc = await GetRaw("/pages?page=viewer-element");
 
         newElement.innerHTML = htmlSrc;
         newElement.querySelector("#title").innerText = jsonElement.title;

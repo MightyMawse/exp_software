@@ -53,7 +53,9 @@ async function LanguagePercentage(){
     const sortedArray = Array.from(percentagesMap).sort((a, b) => b[1] - a[1]);
     const sortedMap = new Map(sortedArray);
     const sortedKeys = sortedMap.keys();
-
+	
+	var legendHTML = await GetRaw("/pages?page=legend-template");
+	
     var legendContainer = document.getElementById("legend");
     // Build gradient string
     for(let n = 0; n < sortedMap.size - 1; n++){
@@ -70,7 +72,6 @@ async function LanguagePercentage(){
         var newLegend = document.createElement("div");
         newLegend.className = "legend";
 
-        var legendHTML = await GetRaw("/pages?page=legend-template");
         var percentage = (Math.round(sortedMap.get(key) * 100) / 100).toString() + "%";
         newLegend.innerHTML = legendHTML;
         newLegend.style.backgroundColor = colors.get(key);
