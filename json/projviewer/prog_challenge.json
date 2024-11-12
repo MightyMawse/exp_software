@@ -104,6 +104,51 @@
                 "C++"
             ],
             "lines": 61
+        },
+        {
+            "title": "Mind the Gap",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Check if number is gapful, otherwise return the nearest one, a number is gapful if it is evenly divisible by the number formed by its first and last digits.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/uow9uoqmczhk9eu/gapful.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/uow9uoqmczhk9eu/gapful.cpp/file",
+            "engine": "C++",
+            "languages": [
+              "C++"
+            ],
+            "lines": 99
+        },
+        {
+            "title": "Palindrome Descendant",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Check if a number is a palindrome or its descendants are, to the 2nd generation.",
+            "skill": "2",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/dtb0fcy4kluuyg0/palindrome_desc.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/dtb0fcy4kluuyg0/palindrome_desc.cpp/file",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 82
+        },
+        {
+            "title": "N-Bonacci",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "Print out fibonacci sequence to the Nth degree and by what number of bonacci (eg. 1-bonacci, 2-bonacci)",
+            "skill": "2",
+            "opensrc": true,
+            "download": "https://www.mediafire.com/file/sjhl8g9b10a4imn/n-bonacci.cpp/file",
+            "srcdownload": "https://www.mediafire.com/file/sjhl8g9b10a4imn/n-bonacci.cpp/file",
+            "engine": "C++",
+            "languages":[
+                "C++"
+            ],
+            "lines": 37
         }
     ]
 }
