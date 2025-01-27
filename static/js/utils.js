@@ -25,6 +25,11 @@ async function GetRaw(route){
     return response;
 }
 
+async function GetRawLocal(file){
+    const response = await fetch(file); // Fetch the file
+    const text = await response.text(); // Read the response as text
+    return text; // Return the text
+}
 
 function SortPercentageMapKeys(map){
     var isSorted = false;
