@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(17, 17, 17);
     padding: 0%;
     margin: 0%;
     overflow-x: hidden;
@@ -7,27 +7,56 @@ body{
 
 .header{
     position: static;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(13, 13, 13);
+    display: inline-block;
+    border-bottom: 1px white solid;
+}
+
+.about{
+    top: 140px; margin-left: 30px; font-size: 2vh; color: white; font-family: inter;
+            text-shadow: 10px 10px 10px black; width: 800px;
+}
+
+.contact{
+    margin-left: 30px;
+    font-family: inter;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30vw;
+    transition-duration: 500ms;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: gray;
 }
 
 .header-button{
     color: lightgray;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-family: inter;
+    font-size: 1.5vh;
     cursor: pointer;
     transition-duration: 500ms;
-    position: relative;
+    padding: 16px;
+    text-align: center;
     text-shadow: 0 0 10px rgb(31, 31, 31);
     text-decoration: none;
     text-shadow: 0 0 10px black;
+    float: left;
+    display: block;
 }
 
 .header-button:hover{
-    color: orange;
+    background-color: white;
+    color: black;
 }
 
 .page-body{
     position: relative;
+    background: transparent;
 }
 
 .footer{
@@ -35,6 +64,7 @@ body{
     padding-top: 20px;
     padding-left: 10px;
     position: relative;
+    background-color: rgb(13, 13, 13);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -57,40 +87,39 @@ body{
     column-gap: 80px;
 }
 
-
-.logo{
-
-}
-
 .large-graphic-button{
     border: gray solid 1px;
     border-radius: 20px;
-    box-shadow: inset 0 0 50px 10px rgb(43, 43, 43), 10px 10px 10px black;
+    box-shadow: 10px 10px 10px black;
     color: white;
     transition-duration: 500ms;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(17, 17, 17);
     cursor: pointer;
     text-decoration: none;
+    font-family: inter;
 }
 
 .large-graphic-button:hover{
-    background-color: gray;
-    border: orange solid 1px;
+    border: 1px solid white;
 }
 
 .button{
     border-radius: 10px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: orange;
+    font-family: inter;
+    background-color: transparent;
     text-align: center;
     cursor: pointer;
     transition-duration: 500ms;
     text-decoration: none;
+    border: 1px solid white;
+    box-shadow: 0 0 10px black;
 }
 
 .button:hover{
     box-shadow: 0 0 10px white;
+    background-color: white;
+    color: black;
 }
 
 .progress-bar{
@@ -115,4 +144,9 @@ body{
 @font-face {
     font-family: mata;
     src: url("../fonts/Mata-Bold.otf");
+}
+
+@font-face {
+    font-family: inter;
+    src: url("../fonts/Inter-Regular.otf");
 }

@@ -1,5 +1,5 @@
 .project-viewer-element{
-    border: solid gray 1px;
+    border: solid white 1px;
     border-radius: 10px;
     width: 100%;
     position: relative;
@@ -7,7 +7,7 @@
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(17, 17, 17);
 }
 
 .element-subtext{
@@ -15,7 +15,7 @@
 }
 
 .download{
-    color: orange;
+    color: rgb(219, 141, 255);
 }
 
 .feature-image{

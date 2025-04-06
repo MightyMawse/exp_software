@@ -1,37 +1,41 @@
 <html>
     <head>
-        <title>Exponential Software - About</title>
+        <title>Exponential Software - About & Contact</title>
         <link rel="stylesheet" href="../css/default.css">
-        <link rel="icon" type="image/x-icon" href="../img/exp.ico">
+        <link rel="icon" type="image/x-icon" href="../img/exp.png">
     </head>
-    <body onload="Init()">
-        <div class="header" style="height: 75px; width: 100%; z-index: 2;">
-            <div style="width: 100%; top: 15px;">
-                <a href="/" style="display: inline-block;">
-                    <img src="../img/exp.png" class="logo" style="width: 50px; height: 50px; position: relative; top: 15px; margin-right: 40px; left: 10px">
-                </a>
-                <a href="projects.html" class="header-button" style="display: inline-block; margin-top: 15px; height: 10%; margin-right: 5px;"><b>Projects</b></a>
-                <a href="about.html" class="header-button" style="display: inline-block; margin-top: 15px; height: 10%; margin-right: 5px;"><b>About</b></a>
-                <a href="contact.html" class="header-button" style="display: inline-block; margin-top: 15px; height: 10%; margin-right: 5px;"><b>Contact</b></a>
-                <a href="statistic.html" class="header-button" style="display: inline-block; margin-top: 15px; height: 10%; margin-right: 5px;"><b>Statistics</b></a>
-            </div>
+    <body onload="Init()" style="max-height: 100%; overflow: hidden;">
+        <div class="header" style="width: 100%; z-index: 2;">
+            <ul style="overflow: hidden; list-style-type: none; margin: 0; padding: 0;">
+                <li><a href="/" class="header-button"><b>Home</b></a></li>
+                <li><a href="projects.html" class="header-button"><b>Projects</b></a></li>
+                <li><a href="about.html" class="header-button"><b>About & Contact</b></a></li>
+                <li><a href="statistic.html" class="header-button"><b>Statistics</b></a></li>
+                <li><a href="http://www.exponential-engine.ct.ws/" class="header-button" target="_blank"><b>ExpoEngine</b></a></li>
+            </ul>
         </div>
 
-        <div class="page-body" style="height: 100%; box-shadow: inset 0 0 70px 10px rgb(26, 26, 26);">
-            <p style="position: absolute; font-size: 50; font-family: Arial, Helvetica, sans-serif; color: white; text-shadow: 10px 10px 10px black;
-            left: 30px">
-                <b>What the heck is this!?</b>
+        <div class="page-body">
+            <p style="font-size: 50; font-family: inter; color: white; text-shadow: 10px 10px 10px black;
+            margin-left: 30px;">
+                <b>About Exponential</b>
             </p>
-            <p style="position: absolute; top: 140px; left: 30px; font-size: 25px; color: gray; font-family: Arial, Helvetica, sans-serif;
-            text-shadow: 10px 10px 10px black; width: 800px;">
-                Exponential Software, previously known as Mawse Software and even MightyMawse Games before that, is the label associated with all of my creations over the years. The love for computer technology
-                and software started roughly around 2013 at the young age of eight when I was introduced to Scratch. Over the years the ambition and skill grew in direct proportion, I have taken the time to compile as much of my work as possible into one central folio,
-                Exponential is also open to any software development out sourcing for software related projects. If you have any enquiry or just need to get in touch please don't hesitate to send a message, contact details can be found on the contacts page!
-                Thankyou for your time!
+
+            <p class="about">
+            Exponential Software is the evolving identity behind a decade of creative and technical exploration, originally known as <font color="lime">MightyMawse Games</font>, then Mawse Software.<br><br>
+            What began in 2013 with a childhood curiosity for Scratch has grown into a deep passion for software development, game design, and everything in between.<br><br>
+            This site serves as a central portfolio for the projects I've built over the years—ranging from experimental games to full-scale applications. 
+            Exponential Software is also available for freelance or collaborative software development work.
+            If you’d like to get in touch—whether for a project, a question, or just to chat—you’ll find contact details just below. Thanks for stopping by.
             </p>
+            <br><br>
         </div>
+
+        <section style="height: 100%; border-top: 1px gray solid; background-color: rgb(13, 13, 13);">
+            <a style="text-decoration: none;"><h1 class="contact">Email: llamagllama58@gmail.com</h1></a>
+            <a style="text-decoration: none;" href="https://www.instagram.com/mason.mawse/"><h1 class="contact">IG: @mason.mawse</h1></a>
+        </section>
         
-        <div id="footer" class="footer" style="height: 40px; background-color: rgb(43, 43, 43);">Exponential Software 2018 - </div>
         <script>
             function Init(){
                 document.getElementById("footer").innerText += new Date().getFullYear();
