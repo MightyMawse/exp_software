@@ -37,10 +37,10 @@ body{
 .header-button{
     color: lightgray;
     font-family: inter;
-    font-size: 1.5vh;
+    font-size: 1.8vh;
     cursor: pointer;
     transition-duration: 500ms;
-    padding: 16px;
+    padding: 2vh;
     text-align: center;
     text-shadow: 0 0 10px rgb(31, 31, 31);
     text-decoration: none;
@@ -83,8 +83,7 @@ body{
 .grid{
     display: grid;
     grid-template-columns: 27.5% 27.5% 27.5%;
-    row-gap: 30px;
-    column-gap: 80px;
+    column-gap: 5vh;
 }
 
 .large-graphic-button{
