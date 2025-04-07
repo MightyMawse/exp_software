@@ -24,7 +24,7 @@ body{
     border: 1px solid gray;
     border-radius: 10px;
     padding: 10px;
-    width: 30vw;
+    width: 40vh;
     transition-duration: 500ms;
     cursor: pointer;
     text-decoration: none;
@@ -36,15 +36,13 @@ body{
 
 .header-button{
     color: lightgray;
-    font-family: inter;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.8vh;
     cursor: pointer;
     transition-duration: 500ms;
     padding: 2vh;
     text-align: center;
-    text-shadow: 0 0 10px rgb(31, 31, 31);
     text-decoration: none;
-    text-shadow: 0 0 10px black;
     float: left;
     display: block;
 }
@@ -95,7 +93,7 @@ body{
     background-color: rgb(17, 17, 17);
     cursor: pointer;
     text-decoration: none;
-    font-family: inter;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .large-graphic-button:hover{
