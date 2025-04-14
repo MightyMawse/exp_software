@@ -54,7 +54,7 @@ async function LanguagePercentage(){
     const sortedMap = new Map(sortedArray);
     const sortedKeys = sortedMap.keys();
 	
-	var legendHTML = await GetRaw("../pages/legend-template.html");
+	var legendHTML = await GetRaw("pages?page=legend-template");
 	
     var legendContainer = document.getElementById("legend");
     // Build gradient string
