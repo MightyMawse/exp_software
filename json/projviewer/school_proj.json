@@ -198,6 +198,21 @@
                 "C#"
             ],
             "lines": 108
+        },
+        {
+            "title": "Hospital Management System",
+            "featureImgURL": "",
+            "date": "2024",
+            "description": "An object oriented system that was a project in 1st year computer science.",
+            "skill": "3.5",
+            "opensrc": true,
+            "download": "https://github.com/MightyMawse/201",
+            "srcdownload": "https://github.com/MightyMawse/201",
+            "engine": "C#",
+            "languages":[
+                "C#"
+            ],
+            "lines": 2913
         }
     ]
 }
