@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Exponential Software - Gallery</title>
+        <link rel="stylesheet" href="../css/default.css">
+        <script src="../js/utils.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="../img/exp.png">
+    </head>
+    <body onload="Init(), LoadViewerContent()">
+        <div class="header" style="width: 100%; z-index: 2;">
+            <ul style="overflow: hidden; list-style-type: none; margin: 0; padding: 0;">
+                <li><a href="/" class="header-button"><b>Home</b></a></li>
+                <li><a href="projects.html" class="header-button"><b>Projects</b></a></li>
+                <li><a href="about.html" class="header-button"><b>About</b></a></li>
+                <li><a href="statistic.html" class="header-button"><b>Statistics</b></a></li>
+                <li><a href="http://www.exponential-engine.ct.ws/" class="header-button" target="_blank"><b>ExpoEngine</b></a></li>
+            </ul>
+        </div>
+
+        <div class="page-body" style="background-color: rgb(17, 17, 17); z-index: 0; ">
+            
+        </div>
+
+        <div id="footer" class="footer" style="height: 40px; background-color: rgb(43, 43, 43); box-shadow: 0 0 10px black;">Exponential Software 2018 - </div>
+
+        <script>
+            function Init(){
+                document.getElementById("footer").innerText += new Date().getFullYear();
+            }
+        </script>
+    </body>
+</html>

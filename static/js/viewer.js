@@ -8,7 +8,7 @@ async function LoadViewerContent(){
         name: projectFile
     }));
 	
-	var htmlSrc = await GetRawLocal("../pages/viewer-element.html");
+	var htmlSrc = await GetRaw("/pages?page=viewer-element");
 
     // Display on screen
     for(let i = 0; i < jsonToLoad.content.length; i++){

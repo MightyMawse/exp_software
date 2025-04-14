@@ -1,20 +1,20 @@
 <html>
     <head>
         <title>Exponential Software - Viewer</title>
-        <link rel="stylesheet" href="../css/default.css">
-        <link rel="stylesheet" href="../css/viewer.css">
-        <script src="../js/viewer.js"></script>
-        <script src="../js/utils.js"></script>
+        <link rel="stylesheet" href="../static/css/default.css">
+        <link rel="stylesheet" href="../static/css/viewer.css">
+        <script src="../static/js/viewer.js"></script>
+        <script src="../static/js/utils.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <link rel="icon" type="image/x-icon" href="../img/exp.png">
+        <link rel="icon" type="image/x-icon" href="../static/img/exp.png">
     </head>
     <body onload="Init(), LoadViewerContent()">
         <div class="header" style="width: 100%; z-index: 2;">
             <ul style="overflow: hidden; list-style-type: none; margin: 0; padding: 0;">
                 <li><a href="/" class="header-button"><b>Home</b></a></li>
-                <li><a href="projects.html" class="header-button"><b>Projects</b></a></li>
-                <li><a href="about.html" class="header-button"><b>About</b></a></li>
-                <li><a href="statistic.html" class="header-button"><b>Statistics</b></a></li>
+                <li><a href="/pages?page=projects" class="header-button"><b>Projects</b></a></li>
+                <li><a href="/pages?page=about" class="header-button"><b>About</b></a></li>
+                <li><a href="/pages?page=statistics" class="header-button"><b>Statistics</b></a></li>
                 <li><a href="http://www.exponential-engine.ct.ws/" class="header-button" target="_blank"><b>ExpoEngine</b></a></li>
             </ul>
         </div>

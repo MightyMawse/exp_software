@@ -1,22 +1,22 @@
 <html>
     <head>
         <title>Exponential Software - Projects</title>
-        <link rel="stylesheet" href="../css/default.css">
-        <link rel="icon" type="image/x-icon" href="../img/exp.png">
+        <link rel="stylesheet" href="../static/css/default.css">
+        <link rel="icon" type="image/x-icon" href="../static/img/exp.png">
     </head>
     <body onload="Init()">
         <div class="header" style="width: 100%; z-index: 2;">
             <ul style="overflow: hidden; list-style-type: none; margin: 0; padding: 0;">
                 <li><a href="/" class="header-button"><b>Home</b></a></li>
-                <li><a href="projects.html" class="header-button"><b>Projects</b></a></li>
-                <li><a href="about.html" class="header-button"><b>About</b></a></li>
-                <li><a href="statistic.html" class="header-button"><b>Statistics</b></a></li>
+                <li><a href="/pages?page=projects" class="header-button"><b>Projects</b></a></li>
+                <li><a href="/pages?page=about" class="header-button"><b>About</b></a></li>
+                <li><a href="/pages?page=statistics" class="header-button"><b>Statistics</b></a></li>
                 <li><a href="http://www.exponential-engine.ct.ws/" class="header-button" target="_blank"><b>ExpoEngine</b></a></li>
             </ul>
         </div>
 
         <video autoplay muted playsinline loop id="myVideo" style="position: absolute; right: 0; bottom: 0; min-width: 100%; min-height: 100%; opacity: 30%; z-index: -1;">
-            <source src="../img/lines.mp4" type="video/mp4">
+            <source src="../static/img/lines.mp4" type="video/mp4">
         </video>
 
         <div class="flex-center" style="z-index: 0; height: 100%;">
@@ -89,7 +89,7 @@
             // Redirect to viewer page and save the projviewer json directory
             function ViewerRedirect(page, projectFile){
                 sessionStorage.setItem("project_file", projectFile);
-                document.location.href = page + ".html"; 
+                document.location.href = "/pages?page=" + page; 
             }
         </script>
     </body>
