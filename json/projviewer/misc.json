@@ -16,6 +16,21 @@
             "lines": 1446
         },
         {
+            "title": "Exponential Engine",
+            "featureImgURL": "",
+            "date": "2025",
+            "description": "A raycasting engine made in c++ using SDL2, accessible in navigation bar.",
+            "skill": "5",
+            "opensrc": true,
+            "download": "http://www.exponential-engine.ct.ws/",
+            "srcdownload": "http://www.exponential-engine.ct.ws/",
+            "engine": "C++, SDL2",
+            "languages":[
+                "C++"
+            ],
+            "lines": 1009
+        },
+        {
             "title": "A Dorak- A True Beginning",
             "featureImgURL": "",
             "date": "2017",

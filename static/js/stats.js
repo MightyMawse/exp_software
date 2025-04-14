@@ -11,6 +11,7 @@ colors.set("Batch", "#919191");
 colors.set("Scratch", "#ffd500");
 colors.set("Python", "#8c00ff");
 colors.set("Objective C", "#000000");
+colors.set("PHP", "#8892BF");
 
 var languageElements = [];
 
@@ -58,11 +59,11 @@ async function LanguagePercentage(){
 	
     var legendContainer = document.getElementById("legend");
     // Build gradient string
-    for(let n = 0; n < sortedMap.size - 1; n++){
+    for(let n = 0; n < sortedMap.size; n++){
         prefix = n == 0 ? ", " : "";
 
         var key = sortedKeys.next().value;
-        var comma = n != sortedMap.size - 2 ? "," : ""; 
+        var comma = n != sortedMap.size - 1 ? "," : ""; 
         var strPercent = (Math.round((sortedMap.get(key) + lastPercentage) * 100) / 100).toString();
 
         gradientString += prefix + colors.get(key) + " " + lastPercentage + "% " + strPercent + "% " + comma;
